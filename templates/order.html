@@ -1,0 +1,42 @@
+<!-- -->
+{% extends "layout.html" %}
+
+<!-- The title of Order form-->
+{% block title %}
+    Order form
+{% endblock %}
+
+<!-- Decoration of the form to fill for make orders -->
+{% block content %}
+
+    <h1>Please place your order by conatcting us with the following numbers:</h1>
+        <h1>+220 2321484 / 9575872</h1>
+
+    <h3>Or you can fill in the following form and we will get back to you as soon as possible:</h3>
+
+    {% if error %}
+            <p class="error"><strong>Error:</strong> {{ error }} </p>
+    {% endif %}
+
+    <form name="/order" method="post">
+        
+        <div class="mb-3">
+            <input autocomplete="off" autofocus type="text" placeholder="Name" name="name">
+        </div>
+        <div class="mb-3">
+            <input autocomplete="off" autofocus type="number" placeholder="Contact Number" name="contact_number">
+        </div>
+        <div class="mb-3">
+            <input autocomplete="off" autofocus type="number" placeholder="Amount of people" name="people">
+        </div>
+        <div class="mb-3">
+            <input class="form-control is-invalid" id="validationTextarea" autocomplete="off" autofocus type="text" placeholder="Address" name="address">
+        </div>
+        <div class="mb-3">
+            <input class="form-control is-invalid" id="validationTextarea" autocomplete="off" autofocus type="text" placeholder="Message/ Special requirements" name="message">
+        </div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+        
+    </form>
+    
+{% endblock %}

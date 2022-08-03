@@ -1,0 +1,128 @@
+<!-- Extends the layout for dishes menu page -->
+{% extends "layout.html" %}
+
+<!-- The title of the menu page-->
+{% block title %}
+    Menu
+{% endblock %}
+
+<!-- Decotation of inforamtion of dishes menu and prices -->
+{% block content %}
+
+    <h1>DISHES MENU</h1>
+
+    <h2>GET THE TASTE OF AFRICAN DISHES</h2>
+
+    <div class="row">
+        <div class="list-group">
+            <h3>STARTERS</h3>
+            <div class="menu-images">
+                <img class="pic" src="../static/images/starter-main.jpg" alt="Starter">
+                <img class="pic" src="../static/images/starter (2).jpg" alt="Starter">
+            </div>
+            <a class="list-group-item d-flex justify-content-between align-items-center">CHICKEN SANDWICH
+                <span class="badge bg-primary">D195</span>
+            </a>
+            <a class="list-group-item d-flex justify-content-between align-items-center">TUNA SANDWICH
+                <span class="badge bg-primary">D175</span>
+            </a>
+            <a class="list-group-item d-flex justify-content-between align-items-center">HOT DOG SANDWICH
+                <span class="badge bg-primary">D185</span>
+            </a>
+            <a class="list-group-item d-flex justify-content-between align-items-center">SHRIMPS SANDWICH
+                <span class="badge bg-primary">D190</span>
+            </a>
+            <a class="list-group-item d-flex justify-content-between align-items-center">SHRIMPS SALAD
+                <span class="badge bg-primary">D190</span>
+            </a>
+            <a class="list-group-item d-flex justify-content-between align-items-center">CHICKEN SALAD
+                <span class="badge bg-primary">D190</span>
+            </a>
+        </div>
+
+        <div class="list-group">
+            <h3>CHICKEN OF THE DAY</h3>
+            <div class="menu-images">
+                <img class="pic" src="../static/images/chicken-yassa.jpg" alt="Chicken Yassa">
+                <img class="pic" src="../static/images/chicken-benachin.jpg" alt="Chicken Benachin">
+            </div>
+            <a class="list-group-item d-flex justify-content-between align-items-center">CHICKEN YASSA
+                <span class="badge bg-primary">D195</span>
+            </a>
+            <a class="list-group-item d-flex justify-content-between align-items-center">CHICKEN DOMODA
+                <span class="badge bg-primary">D195</span>
+            </a>
+            <a class="list-group-item d-flex justify-content-between align-items-center">CHICKEN BENACHIN
+                <span class="badge bg-primary">D195</span>
+            </a>
+            <a class="list-group-item d-flex justify-content-between align-items-center">CHICKEN NUGGETS
+                <span class="badge bg-primary">D160</span>
+            </a>
+            <a class="list-group-item d-flex justify-content-between align-items-center">CHICKEN SANDWICH
+                <span class="badge bg-primary">D235</span>
+            </a>
+            <a class="list-group-item d-flex justify-content-between align-items-center">CHICKEN IN CHILLI SAUCE
+                <span class="badge bg-primary">D250</span>
+            </a>
+            <a class="list-group-item d-flex justify-content-between align-items-center">CHICKEN GRILL AFRA
+                <span class="badge bg-primary">D200</span>
+            </a>
+            <a class="list-group-item d-flex justify-content-between align-items-center">CHICKEN IN CURRY SAUCE
+                <span class="badge bg-primary">D220</span>
+            </a>
+        </div>  
+    </div>
+
+    <div class="row">
+        <div class= "list-group">
+            <h3>MEAT OF THE DAY</h3>
+            <div class="menu-images">
+                <img class="pic" src="../static/images/meat-grill.jpg" alt="Meat Grill">
+                <img class="pic" src="../static/images/meat-domoda.jpg" alt="Meat Domoda">
+            </div>
+            <a class="list-group-item d-flex justify-content-between align-items-center">MEAT DOMODA
+                <span class="badge bg-primary">D190</span>
+            </a>
+            <a class="list-group-item d-flex justify-content-between align-items-center">MEAT BENACHIN
+                <span class="badge bg-primary">D190</span>
+            </a>
+            <a class="list-group-item d-flex justify-content-between align-items-center">MEAT IN CURRY SAUCE
+                <span class="badge bg-primary">D290</span>
+            </a>
+            <a class="list-group-item d-flex justify-content-between align-items-center">MEAT IN GARLIC SAUCE
+                <span class="badge bg-primary">D270</span>
+            </a>
+            <a class="list-group-item d-flex justify-content-between align-items-center">SPAGHETTI BOLOGNESE
+                <span class="badge bg-primary">D270</span>
+            </a>
+        </div>
+        
+        <div class="list-group">
+            <h3>FISH OF THE DAY</h3>
+            <div class="menu-images">
+                <img class="pic" src="../static/images/fish.jpg" alt="Fish">
+                <img class="pic" src="../static/images/shrimps.jpg" alt="Shrimps Fish">
+            </div>
+            <a class="list-group-item d-flex justify-content-between align-items-center">LADY FISH
+                <span class="badge bg-primary">D350</span>
+            </a>
+            <a class="list-group-item d-flex justify-content-between align-items-center">BARACUDA
+                <span class="badge bg-primary">D360</span>
+            </a>
+            <a class="list-group-item d-flex justify-content-between align-items-center">BUTTER FISH
+                <span class="badge bg-primary">D320</span>
+            </a>
+            <a class="list-group-item d-flex justify-content-between align-items-center">SHRIMPS FISH
+                <span class="badge bg-primary">D300</span>
+            </a>
+        </div>
+     </div>
+
+    <h3>You can also choose what you want like Chicken cocktail, Vegetables dressings and many more!!!</h3>
+    <div class="row">
+        <img class="column" src="../static/images/shrimps1.jpg">
+        <img class="column" src="../static/images/starter (3).jpg">
+        <img class="column" src="../static/images/starter1.jpg">
+    </div>
+
+{% endblock %}

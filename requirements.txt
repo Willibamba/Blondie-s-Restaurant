@@ -1,0 +1,5 @@
+Flask
+Flask-Session
+quick-mailer
+requests
+sqlite3
