@@ -1,0 +1,37 @@
+<!-- Extends the layout for orders -->
+{% extends "layout.html" %}
+
+<!-- title of orders page -->
+{% block title %}
+    Orders
+{% endblock %}
+
+<!-- Implementation of displaying orders in a tabular form --> 
+{% block content %}
+    <table class="table table-stiped table-dark">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Contact Number</th>
+                <th>People</th>
+                <th>Address</th>
+                <th>Message</th>
+                <th>Time</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            {% for order in Orders %}
+            <tr>
+                <td> {{ order[0] }} </td>
+                <td> {{ order[1] }} </td>
+                <td> {{ order[2] }} </td>
+                <td> {{ order[3] }} </td>
+                <td> {{ order[4] }} </td>
+                <td> {{ order[5] }} </td>
+            </tr>
+            {% endfor %}
+            
+        </tbody>
+    </table>
+{% endblock %}
