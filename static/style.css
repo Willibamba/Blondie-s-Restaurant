@@ -46,12 +46,11 @@ h2 {
 .list-group {
     width: 50%;
     padding: 5px;
-    
 }
 
 /* Uses flex to display the images of the menu list to columns */
 .menu-images {
-    display: flex;
+    display: flex; 
 }
 
 /* Sets the images of the menu-list */ 
@@ -60,6 +59,7 @@ h2 {
     padding: 5px;
 }
 
+/* Styling of the error message color to red and text alignment to center */
 .error {
     color: red;
     text-align: center;

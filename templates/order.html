@@ -21,19 +21,24 @@
     <form name="/order" method="post">
         
         <div class="mb-3">
-            <input autocomplete="off" autofocus type="text" placeholder="Name" name="name">
+            <p><b>Full Name</b></p>
+            <input autocomplete="off" autofocus class="form-control" type="text" placeholder="Please fill in full name" name="name">
         </div>
         <div class="mb-3">
-            <input autocomplete="off" autofocus type="number" placeholder="Contact Number" name="contact_number">
+            <p><b>Contact Number</b></p>
+            <input autocomplete="off" class="form-control" autofocus type="phone-number" placeholder="Enter phone number" name="contact_number">
         </div>
         <div class="mb-3">
-            <input autocomplete="off" autofocus type="number" placeholder="Amount of people" name="people">
+            <p><b>Amount of People</b></p>
+            <input autocomplete="off" class="form-control" autofocus type="number" placeholder="Enter number of people" name="people">
         </div>
         <div class="mb-3">
-            <input class="form-control is-invalid" id="validationTextarea" autocomplete="off" autofocus type="text" placeholder="Address" name="address">
+            <p><b>Address</b></p>
+            <textarea class="form-control" id="validationTextarea" autocomplete="off" autofocus type="text" placeholder="Please Fill in Address" rows="3" name="address"></textarea>
         </div>
         <div class="mb-3">
-            <input class="form-control is-invalid" id="validationTextarea" autocomplete="off" autofocus type="text" placeholder="Message/ Special requirements" name="message">
+            <p><b>Message</b></p>
+            <textarea class="form-control" id="validationTextarea" autocomplete="off" autofocus type="text" placeholder="Message/ Special requirements" rows="3" name="message"></textarea>
         </div>
         <button class="btn btn-primary" type="submit">Submit</button>
         
