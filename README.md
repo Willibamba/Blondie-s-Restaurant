@@ -1,4 +1,4 @@
-# RESTAURANT WEB APP
+# Blondie's Restaurant
 #### Video Demo: <https://youtu.be/Q6SVO-ImB_8>
 #### Decription:
 This a Restaurant Web App created for my friend's restaurant to enable internet users to make oline orders of dishes, booking table resservations and birthday celebrations with an e-mail notifiaction to the restaurant for each online order activities made and other informations about the restaurant. The reason behind choosing this project is to help my friend have to have a website as his business relies on Facebook postings to communicate and relay information to customers and internet users alike. I believe having a web app for a restaurant is a very essential part of the business to relay information about the dish menus, online orders and the services offered like musical entertainments, birthday celebrations, etc.
