@@ -28,7 +28,7 @@
                 </div>
                 {% if session["user_id"] %}
                 </div class="navbar-nav">
-                    <a class="nav-link" href="/logout">Log Out</a>
+                    <a class="nav-link" href="/logout" style="margin-left: auto;">Log Out</a>
                 </div>
                 {% else %}
                 <div class="navbar-nav">
@@ -36,10 +36,11 @@
                 </div>
                 {% endif %}
             </div> 
-            <div class="position-absolute top-50 start-50 translate-middle"> 
-                <a class="navbar-brand"><b><i>WELCOME TO BLONDIE'S RESTAURANT</i></b></a>   
+            <div class="position-absolute top-50 start-50 translate-middle" style="display: flex;"> 
+                <a class="navbar-brand"><b><i>WELCOME TO BLONDIE'S RESTAURANT</i></b></a>
+                <img class="img-fluid" src="../static/images/logo.png" width="100" height="100" alt="Logo">   
             </div>  
-            <img class="img-fluid" src="../static/images/logo.png" width="100" height="100" alt="Logo" style="margin-left:auto;">
+            
             
         </nav> 
         <!-- Setting of the main section of the pages to create template extension -->
