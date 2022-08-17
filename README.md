@@ -52,7 +52,7 @@ The main files in the project:
 
 - **Videos folder**: Contains the video for musical entertain.
 
-- **style.css**: A file that contains the custom css rules for the website with desing techniques like the box-sizing, flex, text-align, font-size, color, etc.
+- **styling.css**: A file that contains the custom css settings for the web-pages with desing techniques like the box-sizing, flex, text-align, font-size, color, border, padding, etc.
 
 #### **requirement.txt**
 The followings are the rquired packeges needed for this app to run:
