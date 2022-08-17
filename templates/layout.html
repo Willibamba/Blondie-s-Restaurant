@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- CSS only -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
         <link href="../static/style.css" rel="stylesheet">
@@ -12,14 +12,15 @@
             Blondie's Restaurant: {% block title %} {% endblock %}
         </title>
     </head>
-    <body  class="d-flex flex-column min-vh-100">
-        <!-- The design of the navigation bar and the menu button -->
-        <nav class="navbar sticky-top" style="background-color:lime">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <body class="d-flex flex-column min-vh-100">
+        <!-- The design of the navigation bar and the drop-down button for links -->
+        <header class="sticky-top" style="background-color:lime">
+
+            <nav class="navbar container-fluid">
+                <button class="btn" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <div class="dropdown-menu fw-bold" aria-labelledby="dropdownMenuButton" style="background-color: lime;">
                 <div class="navbar-nav">
                     <a class="nav-link" aria-current="page" href="/">Home</a>
                     <a class="nav-link" href="/menu">Menu</a>
@@ -31,19 +32,23 @@
                     {% else %}
                         <a class="nav-link" href="/login">Log In</a>
                     {% endif %}
-                </div>
-            </div>
-            <div class="position-absolute top-50 start-50 translate-middle" style="display: flex;"> 
+                </div>            
+            </nav>
+
+            <div class="position-absolute top-50 start-50 translate-middle align-items-center" style="display: flex;"> 
                 <a class="navbar-brand"><b><i>WELCOME TO BLONDIE'S RESTAURANT</i></b></a>
-                <img class="img-fluid" src="../static/images/logo1.png" width="100" height="100" alt="Logo">   
-            </div>    
-        </nav> 
+                <img class="img-fluid" src="../static/images/logo1.png" width="125" alt="Logo">   
+            </div> 
+
+        </header> 
+
         <!-- Setting of the main section of the pages to create template extension -->
-        <div class="container">
+        <main class="container my-3">
 
             {% block content %} {% endblock %}
 
-        </div>
+        </main>
+
         <!-- The footer to hold the address and contact numbers-->
         <footer class="mt-auto small text-center" style="background-color: lime">
             <b><i>&copy Location: Next to African Village Hotel, Bakau, The Gambia. 

@@ -1,6 +1,7 @@
 /* Set the body to border box */
 body  {
     box-sizing: border-box;
+    background-color: yellow;
 }
 
 /* centers h1, h2, h3, */
@@ -23,15 +24,16 @@ h2 {
     box-sizing: inherit;
 }
 
-/* The poitioning of the photots in the index.html as columns of the same size */
+/* The poitioning of the photos in the index.html as columns of the same size */
 .column {
-    width: 33.33%;
+    width: 30%;
     padding: 5px;
+
 }
 
 /* The display of the photos in the index.html as rows with flex */
 .row {
-    display: flex;
+    display: flexbox;
 }
 
 /* For media output of the photos on the screen */
@@ -43,7 +45,7 @@ h2 {
 
 /* Sets the menu lists */
 .list-group {
-    width: 50%;
+    width: 30%;
     padding: 5px;
 }
 
@@ -54,7 +56,7 @@ h2 {
 
 /* Sets the images of the menu-list */ 
 .pic {
-    width: 50%;
+    width: 30%;
     padding: 5px;
 }
 
@@ -63,4 +65,3 @@ h2 {
     color: red;
     text-align: center;
 }
-

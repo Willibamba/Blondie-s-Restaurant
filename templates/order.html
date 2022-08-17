@@ -19,7 +19,7 @@
     {% endif %}
 
     
-    <form name="/order" method="post" style="width: 50%; margin:0 auto;">
+    <form name="/order" method="post" class="py-3" style="width: 50%; margin:0 auto;">
         
         <div class="mb-3">
             <p><b>Full Name</b></p>
@@ -27,7 +27,7 @@
         </div>
         <div class="mb-3">
             <p><b>Contact Number</b></p>
-            <input autocomplete="off" class="form-control" autofocus type="phone-number" placeholder="Enter phone number" name="contact_number">
+            <input autocomplete="off" class="form-control" autofocus type="tel" placeholder="Enter phone number" name="contact_number">
         </div>
         <div class="mb-3">
             <p><b>Amount of People</b></p>
@@ -35,11 +35,11 @@
         </div>
         <div class="mb-3">
             <p><b>Address</b></p>
-            <textarea class="form-control" id="validationTextarea" autocomplete="off" autofocus type="text" placeholder="Please Fill in Address" rows="3" name="address"></textarea>
+            <textarea class="form-control" id="validationTextarea" autocomplete="off" autofocus type="text" placeholder="Please Fill in Address" rows="3" name="address" style="overflow-y: scroll;"></textarea>
         </div>
-        <div class="mb-3">
+        <div class="mb-3" >
             <p><b>Message</b></p>
-            <textarea class="form-control" id="validationTextarea" autocomplete="off" autofocus type="text" placeholder="Message/ Special requirements" rows="3" name="message"></textarea>
+            <textarea class="form-control" id="validationTextarea" autocomplete="off" autofocus type="text" placeholder="Message/ Special requirements" rows="3" name="message" style="overflow-y: scroll;"></textarea>
         </div>
         <button class="btn btn-primary" type="submit">Submit</button>
         
