@@ -1,5 +1,5 @@
 # Blondie's Restaurant
-#### Video Demo: <https://youtu.be/dVbRJhrB1So>
+#### Video Demo: <https://youtu.be/ua4OKLLocvk>
 #### Decription:
 This a Restaurant Web App created for my friend's restaurant to enable internet users to make oline orders of dishes, booking table resservations and birthday celebrations with an e-mail notifiaction to the restaurant for each online order activities made and other informations about the restaurant. The reason behind choosing this project is to help my friend have to have a website as his business relies on Facebook postings to communicate and relay information to customers and internet users alike. I believe having a web app for a restaurant is a very essential part of the business to relay information about the dish menus, online orders and the services offered like musical entertainments, birthday celebrations, etc.
 
@@ -38,7 +38,7 @@ The main files in the project:
     
 - **order.html**: A page with a form to make online orders and bookings with a submit button.
     
-- **successful_order.html**: The page shows information to confirm that the order is made successfully.
+- **successful_order.html**: The page shows information to confirm that the order and bookings made is successfully.
     
 - **orders.html**: A page that requires login to view the information of online orders and bookings made by customers with time and date from the database.
     
@@ -73,3 +73,8 @@ The followings are the rquired packeges needed for this app to run:
 
 #### **.gitignore**
 For git to ignore files 
+
+#### **Acknowledgements**
+**Lisa Stedman-Falls** for being supportive, helpful and acting like a client.
+
+**CS50** community for giving me chance to learn the knowledge i have applied to this project.
